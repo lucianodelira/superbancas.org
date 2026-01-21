@@ -1,6 +1,6 @@
 {
-    "name": "AcertosClub<",
-    "short_name": "Acertos.Club",
+    "name": "Superbancas<",
+    "short_name": "Superbancas",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#2b2a2a",
@@ -19,3 +19,4 @@
     ],
     "description": "Ajuda apostadores do Jogo do Bicho a acertarem suas apostas com base em análises estatísticas e probabilidades."
 }
+
