@@ -887,4 +887,11 @@ select:hover {
     margin-top: 20px;
     color: #4caf50;
     font-weight: bold;
+
+}
+
+
+
+.section-anchor {
+  scroll-margin-top: 80px;
 }
