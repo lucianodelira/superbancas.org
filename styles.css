@@ -895,3 +895,49 @@ select:hover {
 .section-anchor {
   scroll-margin-top: 80px;
 }
+
+/* ===== SEO CONTROLADO (GOOGLE SAFE) ===== */
+
+.seo-wrapper {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 16px;
+}
+
+.seo-details summary {
+  list-style: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  color: #999;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.seo-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.seo-details[open] summary {
+  color: #fff;
+}
+
+.seo-content {
+  margin-top: 20px;
+  line-height: 1.6;
+  color: #bdbdbd;
+}
+
+.seo-content h2,
+.seo-content h3 {
+  color: #fff;
+  margin-top: 24px;
+}
+
+/* 📱 MOBILE / APP — ESCONDE TOTALMENTE */
+@media (max-width: 768px) {
+  .seo-wrapper {
+    display: none;
+  }
+}
